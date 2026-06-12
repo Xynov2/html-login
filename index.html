@@ -1,41 +1,39 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=, initial-scale=1.0" />
-        <title>login from</title>
-        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4" />
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <a href="/" class="back-portfolio"> ← Portfolio </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>login from</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#" class="login-form">
+      <h1 class="login-title">Login</h1>
 
-        <form action="#" class="login-form">
-            <h1 class="login-title">Login</h1>
+      <div class="input-box">
+        <i class="bx bxs-user"></i>
+        <input type="text" placeholder="Username" />
+      </div>
+      <div class="input-box">
+        <i class="bx bxs-lock-alt"></i>
+        <input type="password" placeholder="password" />
+      </div>
 
-            <div class="input-box">
-                <i class="bx bxs-user"></i>
-                <input type="text" placeholder="Username" />
-            </div>
-            <div class="input-box">
-                <i class="bx bxs-lock-alt"></i>
-                <input type="password" placeholder="password" />
-            </div>
+      <div class="remember-forgot-box">
+        <label for="remember">
+          <input type="checkbox" id="remember" />
+          remember me
+        </label>
+        <a href="#">Forget password</a>
+      </div>
 
-            <div class="remember-forgot-box">
-                <label for="remember">
-                    <input type="checkbox" id="remember" />
-                    remember me
-                </label>
-                <a href="#">Forget password</a>
-            </div>
+      <button class="login-btn">Login</button>
 
-            <button class="login-btn">Login</button>
-
-            <p class="register">
-                Don't have an account?
-                <a href="#">Register</a>
-            </p>
-        </form>
-    </body>
+      <p class="register">
+        Don't have an account?
+        <a href="#">Register</a>
+      </p>
+    </form>
+  </body>
 </html>
